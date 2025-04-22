@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Puri body ke liye background color set karna */
+body {
+    background-color: #D6E2F0;
+}
+
+/* Container ko center mein lane ke liye flexbox ka use */
+.container {
+    min-height: 100vh;
+    /* Puri screen height lena */
+    display: flex;
+    /* Flexbox layout use karna */
+    justify-content: center;
+    /* Horizontally center karna */
+    align-items: center;
+    /* Vertically center karna */
+    padding: 20px;
+    /* Charon taraf thoda space dena */
+}
+
+/* Main card ki styling */
+.card {
+    background-color: white;
+    /* Card ka background safed rakhna */
+    border-radius: 20px;
+    /* Card ke corners ko round karna */
+    padding: 16px;
+    /* Card ke andar content ko space dena */
+    max-width: 320px;
+    /* Card ki maximum width set karna */
+    text-align: center;
+    /* Text ko center align karna */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    /* Card ko thoda sa shadow dena */
+}
+
+/* QR code wale section ki styling */
+.qr-code {
+    background-color: #2C7DFA;
+    /* QR code ka background blue rakhna */
+    border-radius: 10px;
+    /* QR code ke corners ko round karna */
+    overflow: hidden;
+    /* Image ko container ke andar hi rakhna */
+    margin-bottom: 24px;
+    /* Niche ke content se thoda space dena */
+}
+
+/* QR code image ki styling */
+.qr-code img {
+    width: 100%;
+    /* Image ko container ki width ke barabar karna */
+    display: block;
+    /* Image ko block element banana */
+}
+
+/* Heading ki styling */
+h1 {
+    color: #0F172A;
+    /* Dark blue color for heading */
+    font-size: 22px;
+    /* Font size set karna */
+    font-weight: 700;
+    /* Bold text */
+    margin-bottom: 16px;
+    /* Niche ke paragraph se space dena */
+    padding: 0 16px;
+    /* Left-right thoda space dena */
+}
+
+/* Paragraph ki styling */
+p {
+    color: #64748B;
+    /* Grey color for paragraph */
+    font-size: 15px;
+    /* Font size set karna */
+    font-weight: 400;
+    /* Normal weight */
+    margin-bottom: 24px;
+    /* Niche se thoda space dena */
+    padding: 0 10px;
+    /* Left-right thoda space dena */
+}
